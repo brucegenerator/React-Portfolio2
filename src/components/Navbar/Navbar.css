@@ -10,6 +10,11 @@
     z-index: 999;
   }
   
+  h6 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    margin-left: 25px;
+  }
   .navbar-container {
     display: flex;
     justify-content: center;
@@ -19,14 +24,15 @@
   }
   
   .navbar-logo {
-    color: #fff;
-    justify-self: start;
-    margin-left: 20px;
+    /* justify-self: start; */
+    /* float: left; */
+    /* margin-left: 20px; */
     cursor: pointer;
     text-decoration: none;
     font-size: 2rem;
     display: flex;
-    align-items: center;
+    align-items: left;
+    height: 75px;
   }
   
   .fa-typo3 {
@@ -79,7 +85,16 @@
     .NavbarItems {
       position: relative;
     }
-  
+
+    .navbar-logo {
+      /* justify-self: start; */
+      /* float: left; */
+      /* margin-left: 20px; */
+      /* text-align: center; */
+      display: none;
+      left: -100%;
+    }
+
     .nav-menu {
       display: flex;
       flex-direction: column;

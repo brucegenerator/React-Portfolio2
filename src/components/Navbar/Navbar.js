@@ -29,7 +29,9 @@ function Navbar() {
         <nav className='navbar'>
             <div className='navbar-container'>
                 <Link to='/' className='navbar-logo'>
-                <i className="fas fa-user-astronaut"></i>
+                <div className='img-container'>
+                <img className='navbar-logo' src='images/logo.png'></img>
+                </div>
                 </Link>
                 <div className='menu-icon' onClick={handleClick}>
                     <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
@@ -57,6 +59,7 @@ function Navbar() {
                     </li>
                 </ul>
                 {button && <Button buttonStyle='btn--outline'>SIGN UP</Button>}
+                <h6>Hi, I'm Jonathan and I'm a web developer!</h6>
             </div>
         </nav>
       </>  

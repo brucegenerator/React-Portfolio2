@@ -14,10 +14,6 @@ function HeroSection() {
                 className='btns' 
                 buttonStyle='btn--outline'
                 buttonSize='btn--large'>Get Started</Button>
-                <Button 
-                className='btns' 
-                buttonStyle='btn--primary'
-                buttonSize='btn--large'>Watch Trailer <i className='far fa-play-circle' /></Button>
             </div>
         </div>
     )
