@@ -7,7 +7,7 @@
 
 .home,
 .services,
-.products,
+.projects,
 .sign-up {
   display: flex;
   height: 90vh;
@@ -17,7 +17,7 @@
 }
 
 .services {
-  /* background-image: url('/images/img-2.jpg'); */
+  background-image: url('./assets/img-1.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -25,8 +25,8 @@
   font-size: 100px;
 }
 
-.products {
-  /* background-image: url('/images/img-1.jpg'); */
+.projects {
+  background-image: url('./assets/img-2.jpg');
   background-position: center;
   background-size: fill;
   background-repeat: no-repeat;
@@ -35,7 +35,7 @@
 }
 
 .sign-up {
-  /* background-image: url('/images/img-8.jpg'); */
+  background-image: url('./assets/img-3.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
