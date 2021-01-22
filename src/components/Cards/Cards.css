@@ -1,6 +1,7 @@
 .cards {
     padding: 4rem;
-    background: #fff;
+    /* background: #fff; */
+    background: radial-gradient(closest-side, #0c5270, #683da1, #1b0ca0);;
   }
   
   h1 {
@@ -94,7 +95,7 @@
   }
   
   .cards__item__text {
-    color: #252e48;
+    color: white;
     font-size: 18px;
     line-height: 24px;
   }

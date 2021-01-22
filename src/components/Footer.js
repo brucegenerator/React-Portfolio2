@@ -26,32 +26,9 @@ const Footer = () => {
       <div className="footer-links">
         <div className="footer-link-wrapper">
           <div className="footer-link-items">
-            <h2>About</h2>
-            <Link to="/sign-up">Testimonials</Link>
-            <Link to="/">Another Thing</Link>
-            <Link to="/">More Things</Link>
-            <Link to="/">Investors</Link>
-            <Link to="/">Terms of Service</Link>
-          </div>
-        </div>
-        <div className="footer-link-wrapper">
-          <div className="footer-link-items">
-            <h2>About</h2>
-            <Link to="/sign-up">Testimonials</Link>
-            <Link to="/">Another Thing</Link>
-            <Link to="/">More Things</Link>
-            <Link to="/">Investors</Link>
-            <Link to="/">Terms of Service</Link>
-          </div>
-        </div>
-        <div className="footer-link-wrapper">
-          <div className="footer-link-items">
-            <h2>About</h2>
-            <Link to="/sign-up">Testimonials</Link>
-            <Link to="/">Another Thing</Link>
-            <Link to="/">More Things</Link>
-            <Link to="/">Investors</Link>
-            <Link to="/">Terms of Service</Link>
+            <h1 className='footer-link__contact'>CONTACT</h1>
+            <h2 className='contact'>Phone: (540)729-8830</h2>
+            <h2 className='contact'>Email: rothj1987@gmail.com</h2>
           </div>
         </div>
       </div>
@@ -64,18 +41,15 @@ const Footer = () => {
               </div>
               <small className="website-rights">RJMB &#169;</small>
               <div className="social-icons">
-                  <Link className="social-icon-link linkedin"
-                    to="/"
-                    target="_blank"
-                    aria-label="LinkedIn">
+                  <a href='https://www.linkedin.com/in/jonathan-roth-38575047/' className="social-icon-link linkedin" target='_blank' aria-label='linkedIn'>
                   <i className="fab fa-linkedin-in"></i>
-                  </Link>
-                  <Link className="social-icon-link github"
-                    to="/"
+                  </a>
+                  <a className="social-icon-link github"
+                    href="https://github.com/brucegenerator"
                     target="_blank"
                     aria-label="Github">
                   <i class="fab fa-github"></i>
-                  </Link>
+                  </a>
               </div>
           </div>
       </section>

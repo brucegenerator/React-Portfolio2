@@ -3,7 +3,7 @@ import "../../App.css";
 import Button from "../Button/Button";
 import "./HeroSection.css";
 
-function HeroSection() {
+function HeroSection(props) {
   return (
     <div className="hero-container">
       <video src="/videos/video-2.mp4" autoPlay loop muted />
@@ -14,6 +14,7 @@ function HeroSection() {
           className="btns"
           buttonStyle="btn--outline"
           buttonSize="btn--large"
+          onClick={props.onClick}
         >
           Get Started
         </Button>
