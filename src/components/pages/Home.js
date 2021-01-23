@@ -2,14 +2,12 @@ import React from "react";
 import "../../App.css";
 import Cards from "../Cards/Cards";
 import HeroSection from "../HeroSection/HeroSection";
-import Footer from "../Footer";
 
-function Home() {
+function Home(props) {
   return (
     <>
       <HeroSection />
-      <Cards />
-      <Footer />
+      <Cards id={props.id} />
     </>
   );
 }
